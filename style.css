@@ -1,0 +1,44 @@
+/* NOTE element selectors
+*/
+header {
+    display: flex;
+    background-color: #061130;
+    justify-content: space-between;
+}
+
+body {
+    background-color: #061130;
+    color: #f4f6f8;
+
+}
+
+main>div {
+    display: flex;
+}
+
+section>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* NOTE class selectors
+ */
+
+.yellow {
+    color: #fafd61
+}
+
+.righty {
+    display: flex;
+    justify-content: right;
+}
+
+
+.lefty {
+    display: flex;
+    justify-self: left;
+}
+
+
+/* NOTE fancy slectors
+}
