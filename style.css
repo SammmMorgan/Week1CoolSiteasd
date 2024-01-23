@@ -9,6 +9,11 @@ header {
     justify-content: space-between;
 }
 
+button {
+    box-sizing: content-box;
+    background-color: blue;
+}
+
 header>div>img {
     margin: 15px;
 }
@@ -37,7 +42,7 @@ header>section {
 }
 
 header>section>* {
-    margin: 50px;
+    margin: 20px 50px;
 }
 
 section>div {
@@ -45,7 +50,8 @@ section>div {
     justify-content: space-between;
     background-color: white;
     color: black;
-    margin: 25px 100px;
+    margin: 45px 100px;
+    font-size: 1.3rem
 }
 
 /* NOTE class selectors
@@ -78,7 +84,7 @@ section>div {
     background-color: grey;
     color: black;
     margin: 0;
-    padding: 15px;
+    padding: 20px;
 
 }
 
