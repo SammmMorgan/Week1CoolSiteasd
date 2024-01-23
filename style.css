@@ -1,10 +1,18 @@
 /* NOTE element selectors
 */
+
+
+
 header {
     display: flex;
     background-color: #061130;
     justify-content: space-between;
 }
+
+header>div>img {
+    margin: 15px;
+}
+
 
 body {
     color: #f4f6f8;
@@ -37,7 +45,7 @@ section>div {
     justify-content: space-between;
     background-color: white;
     color: black;
-    margin: 25px 20px;
+    margin: 25px 100px;
 }
 
 /* NOTE class selectors
@@ -54,10 +62,15 @@ section>div {
 }
 
 
-.lefty {
+
+
+.leftyplus {
     display: flex;
     justify-self: left;
+    padding-left: 2rem;
+    font-size: 2rem;
 }
+
 
 .bottomy {
     display: flex;
@@ -65,7 +78,8 @@ section>div {
     background-color: grey;
     color: black;
     margin: 0;
-    padding: 15px
+    padding: 15px;
+
 }
 
 /* NOTE fancy slectors
