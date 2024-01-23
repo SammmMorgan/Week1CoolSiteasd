@@ -7,8 +7,14 @@ header {
 }
 
 body {
-    background-color: #061130;
     color: #f4f6f8;
+    margin: 0;
+
+}
+
+main {
+    background-color: #061130;
+    margin: 0;
 
 }
 
@@ -16,9 +22,22 @@ main>div {
     display: flex;
 }
 
+header>section {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+header>section>* {
+    margin: 50px;
+}
+
 section>div {
     display: flex;
     justify-content: space-between;
+    background-color: white;
+    color: black;
+    margin: 25px 20px;
 }
 
 /* NOTE class selectors
@@ -31,6 +50,7 @@ section>div {
 .righty {
     display: flex;
     justify-content: right;
+    margin: 10px;
 }
 
 
@@ -39,6 +59,14 @@ section>div {
     justify-self: left;
 }
 
+.bottomy {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    color: black;
+    margin: 0;
+    padding: 15px
+}
 
 /* NOTE fancy slectors
 }
